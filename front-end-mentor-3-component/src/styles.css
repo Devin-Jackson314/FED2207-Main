@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+font-family: 'Lexend Deca',
+     sans-serif;
+}
+
+h3{
+    font-family: 'Big Shoulders Display',
+            cursive;
+}
+
+

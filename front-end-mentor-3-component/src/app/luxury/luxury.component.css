@@ -6,7 +6,7 @@ div {
     border-radius: 8px;
 }
 
-button {
+button{
     position: relative;
     background: #F2F2F2;
     border-radius: 25px;
@@ -15,6 +15,10 @@ button {
     left: 60px;
     top: 60px;
     border: none;
+}
+
+button:hover{
+    background-color:#004140;
 }
 
 h3 {

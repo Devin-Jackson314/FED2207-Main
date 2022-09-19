@@ -17,6 +17,10 @@ button{
     border: none;
 }
 
+button:hover {
+    background-color: #E28625;
+}
+
 h3{
     position: relative;
     width: 101px;

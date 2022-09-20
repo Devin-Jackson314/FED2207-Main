@@ -1,15 +1,27 @@
-@media (max-width: 1480px)
-{
-section {
-        display: flex;
+
+
+
+
+@media (min-width: 375px){
+    section{
+        display: block;
         justify-content: center;
         align-items: center;
     }
 }
 
-@media (max-width: 375px){
-    section{
-        display: block;
+@media(min-width:800px) {
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 1480px) {
+    section {
+        display: flex;
         justify-content: center;
         align-items: center;
     }

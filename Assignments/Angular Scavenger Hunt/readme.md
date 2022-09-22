@@ -63,7 +63,6 @@ What Is The HTTP Client Module?
 
 The http client module is simply how we handle http request in the angular environment. This CLient module configures a dependency injector for httpclient which is automatically imported by the module.
 
-
 What are the 4 types of data binding in angular?
 
 Data binding keeps your page up to date based on the state of your application. You use data binding to specify things such as the source of an image, the state of a button, or data for a particular user.
@@ -76,26 +75,29 @@ What is RXJS?
 
 RxJS is a library.
 
-Reactive programming is a an asynchronous programming paradigm concerned with data streams and the propagation of change. RxJs is a library for reactive programming using observables that makes it easier to compose asynchronous or callback-based code. RxJS provides an implementation of the Observable type, which is needed until the type becomes part of the language and until the type becomes part of the language and until browsers support it. The library also providess utility functions for creating and working with observables. 
+Reactive programming is a an asynchronous programming paradigm concerned with data streams and the propagation of change. RxJs is a library for reactive programming using observables that makes it easier to compose asynchronous or callback-based code. RxJS provides an implementation of the Observable type, which is needed until the type becomes part of the language and until the type becomes part of the language and until browsers support it. The library also providess utility functions for creating and working with observables.
 These utility functions are used for:
 Converting existing code for async operations into observables
 Iterating through the values in a stream
-Mapping values to different types 
+Mapping values to different types
 Filtering streams
 Composing multiple streams
 
-
 What are Observables?
 
-RxJS offers a number of functions that can be used to create new observables. These functions can simplify the process of creating observables from things such as events, timers, and promises. 
+RxJS offers a number of functions that can be used to create new observables. These functions can simplify the process of creating observables from things such as events, timers, and promises.
+Observables are lazy Push collections of multiple values. An observable is a lazily evaluated computation that synchronously or asynchronously return zero to infinite values from the time it's invoked onwoards. Observables are not like EventEmitters nor are they like Promises for multiple values. Observables may act like EventEmitters in some cases, namely when they are multicasted using RxJS Subjects, but usually they don't act like EventEmitters. Observables are like functions with zero arguments, but generalize those to allow multiple values.
+Subscribing to an Observable is the same as calling a function.
+Observables are able to deliver values either synchronous or asynchronously.
+Observables can "return" multiple values over time, something which functions cannot.
 
 What are operators?
 
 Operators are functions that build on the observables foundation to enable sophisticated manipulation of collections. Example operators are map(), filter(), concat(), and flatMap().
-Operators take configuration options, and they return function, the operator observes the source observable's emitted values, transforms them, and returns a new observable of those transformed values. 
+Operators take configuration options, and they return function, the operator observes the source observable's emitted values, transforms them, and returns a new observable of those transformed values.
 
 What are subjects and behavioral subjects?
 
+An RxJS Subject is a special type of Observable that allows values to be multicasted to many Observers. Plain Observablesare unicast(each subscribed Observer owns an independent execution of the Observable), Subjects are multicast. A subject is like an Observable, but can multicast to many Observers. Subjects are like EventEmitters: they maintain a registry of many listeners. Every subject is an Observable, given a subject you can subscribe to it, providing an Observer, which will start recieving values normally. every subject is also an observer.
 
-
-
+One of the variants of Subjects is the BehaviorSubject, which has a notion of the "the current value". BehaviorSubjects are useful for representing "values over time". For instance, an event stream of birthdays is a Subject, but the stream of a persons age would be a BehaviorSubject.

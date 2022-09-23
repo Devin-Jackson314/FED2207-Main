@@ -12,6 +12,11 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeSectionOneComponent } from './home-section-one/home-section-one.component';
 import { HomeSectionTwoComponent } from './home-section-two/home-section-two.component';
 import { HomeSectionThreeComponent } from './home-section-three/home-section-three.component';
+import { HomeSectionFourComponent } from './home-section-four/home-section-four.component';
+import { HomeSectionFiveComponent } from './home-section-five/home-section-five.component';
+import { HomeSectionSixComponent } from './home-section-six/home-section-six.component';
+import { HomeSectionSevenComponent } from './home-section-seven/home-section-seven.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +29,12 @@ import { HomeSectionThreeComponent } from './home-section-three/home-section-thr
     NavbarComponent,
     HomeSectionOneComponent,
     HomeSectionTwoComponent,
-    HomeSectionThreeComponent
+    HomeSectionThreeComponent,
+    HomeSectionFourComponent,
+    HomeSectionFiveComponent,
+    HomeSectionSixComponent,
+    HomeSectionSevenComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -8,6 +8,10 @@ import { AboutComponent } from './about/about.component';
 import { CareersComponent } from './careers/careers.component';
 import { LocationComponent } from './location/location.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { HomeSectionOneComponent } from './home-section-one/home-section-one.component';
+import { HomeSectionTwoComponent } from './home-section-two/home-section-two.component';
+import { HomeSectionThreeComponent } from './home-section-three/home-section-three.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { NavigationComponent } from './navigation/navigation.component';
     AboutComponent,
     CareersComponent,
     LocationComponent,
-    NavigationComponent
+    NavigationComponent,
+    NavbarComponent,
+    HomeSectionOneComponent,
+    HomeSectionTwoComponent,
+    HomeSectionThreeComponent
   ],
   imports: [
     BrowserModule,

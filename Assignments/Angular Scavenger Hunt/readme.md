@@ -40,7 +40,7 @@ What Are The Angular Lifecycle Hooks, and What Are They Used For?
 Lifecycle hooks are built in the angular framework and they automatically work in the background when you download angular.When your component is built ,initiaited, and you start to use it, thats called a life cycle. The lifecycle is furthered when you make a change, in return it updates the dom and the component needs. Your lifecycle only ends when a component is destroyed or deleted. In you angular app you can use lifecycle hook methods to listen to key events in order to accomplish things like, respond to updates, clean up before deletion and to make a change.
 
 What Is Angular Routing?
-
+associate this with paths and urls
 Routing has alot to do with the reason we would use angular in the first place. We use angular because it allows us to create single page applications. The nature of this involves hiding and showings components when events are initiated by the user. To manage this type of activity in angular you use what we call a Router. This router enables managment by deciphering the browser URL as a command to manipulate the view.
 
 How Can We Nest Routes?
@@ -72,7 +72,7 @@ Property binding, Event binding, two- way binding, and attribute binding.
 https://rxjs.dev/guide/observable
 
 What is RXJS?
-
+reactive extensions for javascript.
 RxJS is a library.
 
 Reactive programming is a an asynchronous programming paradigm concerned with data streams and the propagation of change. RxJs is a library for reactive programming using observables that makes it easier to compose asynchronous or callback-based code. RxJS provides an implementation of the Observable type, which is needed until the type becomes part of the language and until the type becomes part of the language and until browsers support it. The library also providess utility functions for creating and working with observables.
@@ -90,6 +90,10 @@ Observables are lazy Push collections of multiple values. An observable is a laz
 Subscribing to an Observable is the same as calling a function.
 Observables are able to deliver values either synchronous or asynchronously.
 Observables can "return" multiple values over time, something which functions cannot.
+promise admit a single value.
+observables can be cancelled through subscribing and unsubcribing
+observables can handle multiple streams of data
+promises have to play out you can cancel it
 
 What are operators?
 

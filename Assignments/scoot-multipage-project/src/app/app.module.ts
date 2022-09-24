@@ -17,6 +17,10 @@ import { HomeSectionFiveComponent } from './home-section-five/home-section-five.
 import { HomeSectionSixComponent } from './home-section-six/home-section-six.component';
 import { HomeSectionSevenComponent } from './home-section-seven/home-section-seven.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutSectionAComponent } from './about-section-a/about-section-a.component';
+import { AboutSectionBComponent } from './about-section-b/about-section-b.component';
+import { AboutSectionCComponent } from './about-section-c/about-section-c.component';
+import { AboutSectionDComponent } from './about-section-d/about-section-d.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +38,11 @@ import { FooterComponent } from './footer/footer.component';
     HomeSectionFiveComponent,
     HomeSectionSixComponent,
     HomeSectionSevenComponent,
-    FooterComponent
+    FooterComponent,
+    AboutSectionAComponent,
+    AboutSectionBComponent,
+    AboutSectionCComponent,
+    AboutSectionDComponent
   ],
   imports: [
     BrowserModule,

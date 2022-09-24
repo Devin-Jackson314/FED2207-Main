@@ -1,13 +1,13 @@
 @media(min-width:375px){
-nav {
-        display: flex;
-        
-    }
-.lineSvgs{
-    width: 19.69px;
-    height: 16px;
+
+div{
+    background-image: url("../../assets/images/about-hero-mobile.jpg");
+    width: 375px;
+    height: 160px;
 }
 
 }
+
+
 
 

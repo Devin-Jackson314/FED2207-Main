@@ -21,6 +21,8 @@ import { AboutSectionAComponent } from './about-section-a/about-section-a.compon
 import { AboutSectionBComponent } from './about-section-b/about-section-b.component';
 import { AboutSectionCComponent } from './about-section-c/about-section-c.component';
 import { AboutSectionDComponent } from './about-section-d/about-section-d.component';
+import { FaqsComponent } from './faqs/faqs.component';
+import { SecondaryFooterComponent } from './secondary-footer/secondary-footer.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { AboutSectionDComponent } from './about-section-d/about-section-d.compon
     AboutSectionAComponent,
     AboutSectionBComponent,
     AboutSectionCComponent,
-    AboutSectionDComponent
+    AboutSectionDComponent,
+    FaqsComponent,
+    SecondaryFooterComponent
   ],
   imports: [
     BrowserModule,

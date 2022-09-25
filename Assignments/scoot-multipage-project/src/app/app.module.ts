@@ -23,6 +23,12 @@ import { AboutSectionCComponent } from './about-section-c/about-section-c.compon
 import { AboutSectionDComponent } from './about-section-d/about-section-d.component';
 import { FaqsComponent } from './faqs/faqs.component';
 import { SecondaryFooterComponent } from './secondary-footer/secondary-footer.component';
+import { CareersSectionAComponent } from './careers-section-a/careers-section-a.component';
+import { CareersSectionBComponent } from './careers-section-b/careers-section-b.component';
+import { CareersSectionCComponent } from './careers-section-c/careers-section-c.component';
+import { LocationsComponent } from './locations/locations.component';
+import { LocationsSectionAComponent } from './locations-section-a/locations-section-a.component';
+import { LocationsSectionBComponent } from './locations-section-b/locations-section-b.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +52,13 @@ import { SecondaryFooterComponent } from './secondary-footer/secondary-footer.co
     AboutSectionCComponent,
     AboutSectionDComponent,
     FaqsComponent,
-    SecondaryFooterComponent
+    SecondaryFooterComponent,
+    CareersSectionAComponent,
+    CareersSectionBComponent,
+    CareersSectionCComponent,
+    LocationsComponent,
+    LocationsSectionAComponent,
+    LocationsSectionBComponent
   ],
   imports: [
     BrowserModule,

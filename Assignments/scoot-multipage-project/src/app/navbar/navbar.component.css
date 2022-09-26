@@ -2,13 +2,17 @@ div{
     position: relative;
     height: 64px;
     width: 375px;
-    top: 75px;
+    
     left: 10px;
 }
 
+.hamburger{
+    position: relative;
+    top: 40px;
+}
 .scoot{
     position: relative;
     overflow: visible;
     left: 120px;
-    bottom: -5px;
+    bottom: 30px;
 }

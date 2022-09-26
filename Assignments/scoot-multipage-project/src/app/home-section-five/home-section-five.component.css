@@ -28,3 +28,7 @@ button{
     height: 53px;
     background: #FCB72B;
 }
+
+img{
+    border-radius: 50%;
+}

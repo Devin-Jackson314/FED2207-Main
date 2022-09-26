@@ -1,0 +1,21 @@
+img{
+    border-radius: 50%;
+    width: 311px;
+    height: 311px;
+}
+
+h3{
+   width: 311px;
+   height: 64px;
+   color: #495567;
+   text-align: center;
+}
+
+p{
+    width: 311px;
+    height: 100px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    color: #939CAA;
+    text-align: center;
+}

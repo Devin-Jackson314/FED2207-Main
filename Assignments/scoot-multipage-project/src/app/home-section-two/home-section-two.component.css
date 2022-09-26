@@ -10,3 +10,15 @@ h4{
     letter-spacing: -0.892857px;
     color: #495567;
 }
+
+p{
+   width: 311px;
+   height: 100px;
+   font-family: 'Lexend Deca';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 25px;
+   text-align: center; 
+   color: #939CAA;
+}

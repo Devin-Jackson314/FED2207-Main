@@ -4,3 +4,35 @@ div{
     height: 658px;
    
 }
+
+h2{
+    width: 311px;
+    height: 120px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -1.78571px;
+    color: #FFFFFF;
+}
+
+p{
+   width: 311px; 
+   height: 125px;
+   font-family: 'Lexend Deca';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 25px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+button{
+    width: 180px;
+    height: 53px;
+    left: 98px;
+    background: #FCB72B;
+    color:#FFFFFF;
+}

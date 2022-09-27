@@ -1,4 +1,5 @@
 h3{
+    position: relative;
     width: 311px;
     height: 64px;
     font-family: 'Space Mono';
@@ -9,6 +10,7 @@ h3{
     text-align: center;
     letter-spacing: -1.42857px;
     color: #FFFFFF;
+    left: 30px;
 }
 
 div{
@@ -16,4 +18,11 @@ div{
     width: 375px;
     height: 320px;
     color: #FFFFFF;
+   
+}
+
+svg{
+    position: relative;
+    left: 15px;
+    
 }

@@ -4,3 +4,15 @@ div {
     height: 160px;
 }
 
+h3 {
+    width: 311px;
+    height: 40px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -1.78571px;
+    color: #ffffff;
+}

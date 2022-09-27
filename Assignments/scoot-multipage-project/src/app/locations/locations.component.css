@@ -1,5 +1,92 @@
-div {
+.locations{
+    position: relative;
     background-image: url("../../assets/images/careers-location-hero-mobile.jpg");
     width: 375px;
     height: 160px;
+    bottom: 30px;
+}
+
+h2 {
+    position: relative;
+    width: 311px;
+    height: 40px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -1.78571px;
+    color: #ffffff;
+    top: 50px;
+    right: -20px;
+}
+
+img{
+    position: relative;
+    width: 311px;
+    height: 152px;
+    left: 20px;
+
+}
+
+.background{
+display: flex;
+position: relative;
+width: 311px;
+height: 72px;
+background: rgba(252, 183, 43, 0.15);
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+letter-spacing: -1.07143px;
+left: 20px;
+justify-content: center;
+align-items: center;
+
+}
+
+h3{
+position: relative;
+width: 311px;
+height: 64px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+text-align: center;
+letter-spacing: -1.42857px;
+color: #495567;
+left: 10px;
+}
+
+.instruct{
+position: relative;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #939CAA;
+width: 311px;
+height: 125px;
+left: 15px;
+}
+
+button{
+    position: relative;
+    background: #FCB72B;
+    color: #ffffff;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    left: 120px;
+    text-align: center;
 }

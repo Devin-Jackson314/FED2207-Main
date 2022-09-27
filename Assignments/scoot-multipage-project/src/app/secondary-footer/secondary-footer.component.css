@@ -5,9 +5,34 @@ div {
 }
 
 .svg{
+    position: relative;
     overflow: visible;
+    left: 120px;
 }
 
 p{
     color: #939CAA;
+}
+
+.tags{
+    position: relative;
+    left: 153px;
+}
+
+.facebook{
+   position: relative;
+   top: 80px;
+   left: 100px;
+}
+
+.twitter{
+position: relative;
+    top: 80px;
+    left: 150px;
+}
+
+.instagram{
+position: relative;
+    top: 80px;
+    left: 200px;
 }

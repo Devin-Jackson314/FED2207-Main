@@ -1,0 +1,29 @@
+h4{
+    
+            width: 311px;
+            height: 28px;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            letter-spacing: -1.42857px;
+            overflow: visible;
+            color: #495567;
+        
+}
+
+h3{
+    width: 311px;
+        height: 28px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: -1.42857px;
+        overflow: visible;
+        color: #495567;
+}

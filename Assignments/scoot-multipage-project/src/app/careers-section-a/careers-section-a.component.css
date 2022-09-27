@@ -1,21 +1,36 @@
 img {
+    position: relative;
     border-radius: 50%;
     width: 311px;
     height: 311px;
+    left: 25px;
 }
 
 h3 {
+    position: relative;
     width: 311px;
     height: 64px;
     color: #495567;
     text-align: center;
+    left: 20px;
 }
 
 p {
+    position: relative;
     width: 311px;
     height: 100px;
     font-family: 'Lexend Deca';
     font-style: normal;
     color: #939CAA;
     text-align: center;
+    left: 20px;
+}
+
+button{
+    position: relative;
+    left: 100px;
+    top: 20px;
+    left: 140px;
+    background: #FCB72B;
+    color: #ffffff;
 }

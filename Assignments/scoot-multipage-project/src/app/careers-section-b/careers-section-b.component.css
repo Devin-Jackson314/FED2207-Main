@@ -1,21 +1,47 @@
 img {
+    position: relative;
     border-radius: 50%;
     width: 311px;
     height: 311px;
+    left: 20px;
 }
 
 h3 {
+    position: relative;
     width: 311px;
-    height: 64px;
+    height: 32px;
     color: #495567;
     text-align: center;
+    left: 20px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
 }
 
 p {
+    position: relative;
     width: 311px;
     height: 100px;
     font-family: 'Lexend Deca';
     font-style: normal;
     color: #939CAA;
     text-align: center;
+    left: 20px;
+}
+
+h4{
+position: relative;
+width: 311px;
+height: 28px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+letter-spacing: -1.07143px;
+color: #495567;
+left: 20px;
 }

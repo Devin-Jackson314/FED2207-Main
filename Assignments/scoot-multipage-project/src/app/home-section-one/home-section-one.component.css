@@ -1,11 +1,14 @@
 div{
+    position: relative;
     background-image: url("../../assets/images/home-hero-mobile.jpg");
     width: 375px;
     height: 658px;
+    bottom: 30px;
    
 }
 
 h2{
+    position: relative;
     width: 311px;
     height: 120px;
     font-family: 'Space Mono';
@@ -15,9 +18,11 @@ h2{
     text-align: center;
     letter-spacing: -1.78571px;
     color: #FFFFFF;
+    left: 20px;
 }
 
 p{
+   position: relative;
    width: 311px; 
    height: 125px;
    font-family: 'Lexend Deca';
@@ -27,12 +32,15 @@ p{
    line-height: 25px;
    text-align: center;
    color: #FFFFFF;
+   left: 20px;
 }
 
 button{
+    position: relative;
     width: 180px;
     height: 53px;
     left: 98px;
     background: #FCB72B;
     color:#FFFFFF;
+    left: 90px;
 }

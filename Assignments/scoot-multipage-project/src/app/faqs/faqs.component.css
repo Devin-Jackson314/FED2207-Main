@@ -1,5 +1,5 @@
 h4{
-    
+            position: relative;
             width: 311px;
             height: 28px;
             font-family: 'Space Mono';
@@ -11,11 +11,13 @@ h4{
             letter-spacing: -1.42857px;
             overflow: visible;
             color: #495567;
+            left: 30px;
         
 }
 
 h3{
-    width: 311px;
+        position: relative;
+        width: 311px;
         height: 28px;
         font-family: 'Space Mono';
         font-style: normal;
@@ -26,4 +28,23 @@ h3{
         letter-spacing: -1.42857px;
         overflow: visible;
         color: #495567;
+        left: 25px;
+}
+
+.background{
+    position: relative;
+    width: 311px;
+    height: 311px;
+    background: #F2F5F9;
+    left: 25px;
+    
+}
+
+.background-2{
+    position: relative;
+    width: 311px;
+    height: 112px;
+    background: #F2F5F9;
+    left: 25px;
+    
 }

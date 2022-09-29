@@ -97,19 +97,28 @@
     }
 
     #helmet{
+        position: relative;
         width: 730px;
         height: 92px;
+        top: -1500px;
+        left: 600px;
     }
 
     #regulations{
+        position: relative;
         width: 730px;
         height: 92px;
+        top: -1500px;
+        left: 600px;
 
     }
 
     #damage{
+        position: relative;
         width: 730px;
         height: 92px;
+        top: -1500px;
+        left: 600px;
     }
 
 }

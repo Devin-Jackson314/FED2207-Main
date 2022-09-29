@@ -1,23 +1,33 @@
-div {
-    position: relative;
-    background-image: url("../../assets/images/careers-location-hero-mobile.jpg");
-    width: 375px;
-    height: 160px;
-    bottom: 90px;
+@media(min-width: 375px){
+
+    div {
+            position: relative;
+            background-image: url("../../assets/images/careers-location-hero-mobile.jpg");
+            width: 375px;
+            height: 160px;
+            bottom: 90px;
+        }
+    
+        h3 {
+            position: relative;
+            width: 311px;
+            height: 40px;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: -1.78571px;
+            color: #ffffff;
+            top: 50px;
+            left: 20px;
+        }
 }
 
-h3 {
-    position: relative;
-    width: 311px;
-    height: 40px;
-    font-family: 'Space Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: -1.78571px;
-    color: #ffffff;
-    top: 50px;
-    left: 20px;
+@media(min-width: 1440px){
+    div{
+        width: 1440px;
+        height: 200px;
+    }
 }

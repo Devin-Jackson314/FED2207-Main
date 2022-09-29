@@ -1,22 +1,61 @@
-div{
-    position: relative;
-    width: 311px;
-    height: 190px;
-    background: #F2F5F9;
-    left: 20px;
+@media(min-width: 375px){
+div {
+        position: relative;
+        width: 311px;
+        height: 190px;
+        background: #F2F5F9;
+        left: 20px;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    button {
+        position: relative;
+        left: 130px;
+        background: #FCB72B;
+        color: #F2F5F9;
+    }
 }
 
-h4{
-    text-align: center;
-}
+@media(min-width: 1440px){
+    .General-Manager{
+        width: 1110px;
+        height: 128px;
+        top: -1300px;
+        left: 130px;
+    }
 
-p{
-    text-align: center;
-}
+    .UI-UX{
+        width: 1110px;
+        height: 128px;
+        top: -1290px;
+        left: 130px;
+    }
 
-button{
-  position: relative;
-  left: 130px;
-  background: #FCB72B;
-  color: #F2F5F9;
+    .Blog{
+        width: 1110px;
+        height: 128px;
+        top: -1290px;
+        left: 130px;
+    }
+
+    .Graphic{
+        width: 1110px;
+        height: 128px;
+        top: -1290px;
+        left: 130px;
+    }
+
+    .Indo{
+        width: 1110px;
+        height: 128px; 
+        top: -1290px;
+        left: 130px;
+    }
 }

@@ -1,24 +1,33 @@
+@media(min-width: 375px){
 div {
-    position: relative;
-    background-image: url("../../assets/images/about-hero-mobile.jpg");
-    width: 375px;
-    height: 160px;
-    bottom: 80px;
-    right:5px;
+        position: relative;
+        background-image: url("../../assets/images/about-hero-mobile.jpg");
+        width: 375px;
+        height: 160px;
+        bottom: 80px;
+        right: 5px;
+    }
+
+    h2 {
+        position: relative;
+        width: 311px;
+        height: 40px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -1.78571px;
+        color: #ffffff;
+        top: 50px;
+        left: 30px;
+    }
 }
 
-h2{
-    position: relative;
-    width: 311px;
-    height: 40px;
-    font-family: 'Space Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: -1.78571px;
-    color: #ffffff;
-    top: 50px;
-    left: 30px;
+@media(min-width: 1440px){
+    div{
+        width:1440px;
+        height: 200px; 
+    }
 }

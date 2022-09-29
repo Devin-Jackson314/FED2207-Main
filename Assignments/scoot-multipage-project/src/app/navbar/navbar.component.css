@@ -19,6 +19,8 @@ div {
         left: 120px;
         bottom: 63px;
     }
+
+      
 }
 
 @media (min-width:1440px) {
@@ -29,13 +31,19 @@ div {
     }
 
     .hamburger{
-        display: none;
+       display: none; 
     }
 
     .scoot{
         position: relative;
-        left: 500px;
+        left: 300px;
+        bottom: 83px;
+        
     }
+
+    
+
+    
 }
 
 

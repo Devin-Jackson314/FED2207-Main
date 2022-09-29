@@ -1,53 +1,123 @@
-h3{
-    position: relative;
-    width:311px;
-    height: 32px;
-    font-family: 'Space Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-size:32px;
-    line-height: 32px;
-    text-align: center;
-    letter-spacing: -1.42857px;
-    overflow: visible;
-    color: #495567;
-    left: 30px;
+@media (min-width: 375px){
+h3 {
+        position: relative;
+        width: 311px;
+        height: 32px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -1.42857px;
+        overflow: visible;
+        color: #495567;
+        left: 30px;
+    }
+
+    img {
+        position: relative;
+        border-radius: 50%;
+        width: 240px;
+        height: 240px;
+        left: 65px;
+    }
+
+    h4 {
+        position: relative;
+        width: 311px;
+        height: 32px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -1.42857px;
+        overflow: visible;
+        color: #495567;
+        left: 30px;
+    }
+
+    p {
+        position: relative;
+        width: 311px;
+        height: 100px;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #939CAA;
+        left: 30px;
+    }
 }
 
-img{
-    position: relative;
-    border-radius: 50%;
-    width: 240px;
-    height: 240px;
-    left: 65px;
-}
+@media(min-width: 1440px){
+    h3{
+        position: relative;
+        width: 540px;
+        height: 48px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        top: -500px;
+        left: 400px;
 
-h4{
-    position: relative;
-    width: 311px;
-    height: 32px;
-    font-family: 'Space Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-    letter-spacing: -1.42857px;
-    overflow: visible;
-    color: #495567;
-    left: 30px;
-}
+    }
+    .values{
+        position: relative;
+        top: -400px;
+        left: 130px;
+    }
 
-p{
-  position: relative;
-  width: 311px;
-  height: 100px; 
-  font-family: 'Lexend Deca'; 
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 25px;
-  text-align: center;
-  color: #939CAA;
-  left: 30px;
+    h4{
+        position: relative;
+        top: -430px;
+        left: 90px;
+    }
+
+    p{
+        position: relative;
+        top: -430px;
+        left: 80px;
+    }
+
+    .tech{
+        position: relative;
+        left: 520px;
+        top: -930px;
+    }
+
+    .integrity{
+        position: relative;
+        top: -620px;
+        left: 485px;
+    }
+
+    .integrity-p{
+        position: relative;
+        top: -880px;
+        left: 480px;
+    }
+
+    .community{
+        position: relative;
+        top: -1380px;
+        left: 980px;
+        
+    }
+
+    .community2{
+        position: relative;
+        top: -1070px;
+        left: 940px;
+    }
+
+    .community3{
+        position: relative;
+        top: -1335px;
+        left: 930px;
+    }
 }

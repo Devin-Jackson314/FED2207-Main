@@ -37,6 +37,8 @@ div {
         top: 80px;
         left: 200px;
     }
+
+    
 }
 
 @media(min-width: 1440px){
@@ -59,6 +61,20 @@ div {
         position: relative;
         left: 800px;
         top: 30px;
+    }
+
+    .twitter{
+        position: relative;
+        left: 830px;
+        top: 32px;
+
+    }
+
+    .instagram{
+        position: relative;
+        left: 850px;
+        top: 30px;
+
     }
 
     .container{

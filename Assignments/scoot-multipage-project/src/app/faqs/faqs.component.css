@@ -1,4 +1,6 @@
-h4{
+@media(min-width: 375px){
+
+    h4 {
             position: relative;
             width: 311px;
             height: 28px;
@@ -12,39 +14,102 @@ h4{
             overflow: visible;
             color: #495567;
             left: 30px;
-        
+    
+        }
+    
+        h3 {
+            position: relative;
+            width: 311px;
+            height: 28px;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            letter-spacing: -1.42857px;
+            overflow: visible;
+            color: #495567;
+            left: 25px;
+        }
+    
+        .background {
+            position: relative;
+            width: 311px;
+            height: 311px;
+            background: #F2F5F9;
+            left: 25px;
+    
+        }
+    
+        .background-2 {
+            position: relative;
+            width: 311px;
+            height: 112px;
+            background: #F2F5F9;
+            left: 25px;
+    
+        }
 }
 
-h3{
+
+@media(min-width: 1440px){
+    h4{
         position: relative;
-        width: 311px;
-        height: 28px;
-        font-family: 'Space Mono';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 28px;
-        text-align: center;
-        letter-spacing: -1.42857px;
-        overflow: visible;
-        color: #495567;
-        left: 25px;
-}
-
-.background{
-    position: relative;
-    width: 311px;
-    height: 311px;
-    background: #F2F5F9;
-    left: 25px;
+        top: -1300px;
+        font-size: 48px;
+        line-height: 48px;
+        left: 500px;
+    }
     
-}
+    #download{
+        position: relative;
+        width: 730px;
+        height: 191px;
+        top: -1400px;
+        left: 600px;
 
-.background-2{
-    position: relative;
-    width: 311px;
-    height: 112px;
-    background: #F2F5F9;
-    left: 25px;
-    
+    }
+
+    h3{
+        position: relative;
+        width: 350px;
+        height: 48px;
+        font-size: 40px; 
+        top: -1300px;
+    }
+
+    #scoots{
+        position: relative;
+        top: -1400px;
+        width: 730px;
+        height: 92px;
+        left: 600px;
+    }
+
+    #license{
+        
+        width: 730px;
+        height: 92px;
+        position: relative;
+        top: -1380px;
+        left: 600px;
+    }
+
+    #helmet{
+        width: 730px;
+        height: 92px;
+    }
+
+    #regulations{
+        width: 730px;
+        height: 92px;
+
+    }
+
+    #damage{
+        width: 730px;
+        height: 92px;
+    }
+
 }

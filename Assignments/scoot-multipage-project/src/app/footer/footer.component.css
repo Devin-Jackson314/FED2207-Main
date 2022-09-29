@@ -1,28 +1,40 @@
-h3{
-    position: relative;
-    width: 311px;
-    height: 64px;
-    font-family: 'Space Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 32px;
-    text-align: center;
-    letter-spacing: -1.42857px;
-    color: #FFFFFF;
-    left: 30px;
+@media(min-width:375px){
+h3 {
+        position: relative;
+        width: 311px;
+        height: 64px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -1.42857px;
+        color: #FFFFFF;
+        left: 30px;
+    }
+
+    div {
+        background: #495567;
+        width: 375px;
+        height: 320px;
+        color: #FFFFFF;
+
+    }
+
+    svg {
+        position: relative;
+        left: 15px;
+
+    }
 }
 
-div{
-    background: #495567;
-    width: 375px;
-    height: 320px;
-    color: #FFFFFF;
-   
-}
+@media(min-width:1440px){
+    div{
+        position: relative;
+        width: 1440px;
+        height: 396px;
+        top: -1000px;
 
-svg{
-    position: relative;
-    left: 15px;
-    
+    }
 }

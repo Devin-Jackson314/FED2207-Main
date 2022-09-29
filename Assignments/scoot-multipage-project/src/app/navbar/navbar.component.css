@@ -1,18 +1,41 @@
-div{
-    position: relative;
-    height: 64px;
-    width: 375px;
-    
-    left: 10px;
+
+@media (min-width: 375px){
+div {
+        position: relative;
+        height: 64px;
+        width: 375px;
+
+        left: 10px;
+    }
+
+    .hamburger {
+        position: relative;
+        top: 10px;
+    }
+
+    .scoot {
+        position: relative;
+        overflow: visible;
+        left: 120px;
+        bottom: 63px;
+    }
 }
 
-.hamburger{
-    position: relative;
-    top: 40px;
+@media (min-width:1440px) {
+    div {
+        position: relative;
+        height: 96px;
+        width: 1448px;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .scoot{
+        position: relative;
+        left: 500px;
+    }
 }
-.scoot{
-    position: relative;
-    overflow: visible;
-    left: 120px;
-    bottom: 30px;
-}
+
+

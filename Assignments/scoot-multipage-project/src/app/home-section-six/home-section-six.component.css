@@ -1,48 +1,78 @@
-h3{
-    position: relative;
-    width: 311px;
-    height: 64px;
-    font-family: 'Space Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 32px;
-    text-align: center;
-    letter-spacing: -1.42857px;
-    color: #495567;
-    top: 30px;
-    left: 15px;
+@media(min-width: 375px){
+
+    h3 {
+            position: relative;
+            width: 311px;
+            height: 64px;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 32px;
+            text-align: center;
+            letter-spacing: -1.42857px;
+            color: #495567;
+            top: 30px;
+            left: 15px;
+        }
+    
+        p {
+            position: relative;
+            width: 311px;
+            height: 150px;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #939CAA;
+            top: 20px;
+            left: 20px;
+        }
+    
+        button {
+            position: relative;
+            width: 180px;
+            height: 53px;
+            background: #FCB72B;
+            top: 15px;
+            left: 70px;
+        }
+    
+        img {
+            position: relative;
+            width: 311px;
+            height: 311px;
+            border-radius: 50%;
+            left: 20px;
+            top: 30px;
+        }
 }
 
-p {
-    position: relative;
-    width: 311px;
-    height: 150px;
-    font-family: 'Lexend Deca';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
-    color: #939CAA;
-    top: 20px;
-    left: 20px;
-}
+@media(min-width: 1440px){
 
-button {
+   img{
     position: relative;
-    width: 180px;
-    height: 53px;
-    background: #FCB72B;
-    top: 15px;
-    left: 70px;
-}
+    top: -700px;
+    left: 100px;
+   }
 
-img{
+   h3{
     position: relative;
-    width: 311px;
-    height: 311px;
-    border-radius: 50%;
-    left: 20px;
-    top: 30px;
+    top: -1000px;
+    left: 800px;
+   }
+
+   p{
+    position: relative;
+    top: -1000px;
+    left: 800px;
+   }
+
+   button{
+    position: relative;
+    top: -1250px;
+    left: 860px;
+   }
 }

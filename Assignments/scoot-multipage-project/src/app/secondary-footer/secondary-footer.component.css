@@ -1,38 +1,86 @@
+@media(min-width:375px){
 div {
-    background: #333A44;
-    width: 375px;
-    height: 438px;
+        background: #333A44;
+        width: 375px;
+        height: 438px;
+    }
+
+    .svg {
+        position: relative;
+        overflow: visible;
+        left: 120px;
+    }
+
+    p {
+        color: #939CAA;
+    }
+
+    .tags {
+        position: relative;
+        left: 153px;
+    }
+
+    .facebook {
+        position: relative;
+        top: 80px;
+        left: 100px;
+    }
+
+    .twitter {
+        position: relative;
+        top: 80px;
+        left: 150px;
+    }
+
+    .instagram {
+        position: relative;
+        top: 80px;
+        left: 200px;
+    }
 }
 
-.svg{
-    position: relative;
-    overflow: visible;
-    left: 120px;
-}
+@media(min-width: 1440px){
+    div{
+        
+        position: relative;
+        width: 1440px;
+        height: 96px;
+        top: -1100px;
+       
+        
+    }
 
-p{
-    color: #939CAA;
-}
+    svg{
+        position: relative;
+        top:30px
+    }
 
-.tags{
-    position: relative;
-    left: 153px;
-}
+    .facebook{
+        position: relative;
+        left: 800px;
+        top: 30px;
+    }
 
-.facebook{
-   position: relative;
-   top: 80px;
-   left: 100px;
-}
+    .container{
+        display: flex;
+    }
 
-.twitter{
-position: relative;
-    top: 80px;
-    left: 150px;
-}
+    #about{
+        position: relative;
+        left: 160px;
+        top: 20px;
+    }
 
-.instagram{
-position: relative;
-    top: 80px;
-    left: 200px;
+    #location{
+        position: relative;
+        top: 20px;
+        left: 170px;
+    }
+
+    #careers{
+        position: relative;
+        top: 20px;
+        left: 180px;
+    }
+    
 }

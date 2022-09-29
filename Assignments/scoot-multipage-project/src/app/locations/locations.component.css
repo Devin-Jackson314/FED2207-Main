@@ -1,92 +1,207 @@
-.locations{
-    position: relative;
-    background-image: url("../../assets/images/careers-location-hero-mobile.jpg");
-    width: 375px;
-    height: 160px;
-    bottom: 85px;
+@media(min-width: 375px){
+.locations {
+        position: relative;
+        background-image: url("../../assets/images/careers-location-hero-mobile.jpg");
+        width: 375px;
+        height: 160px;
+        bottom: 85px;
+    }
+
+    h2 {
+        position: relative;
+        width: 311px;
+        height: 40px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -1.78571px;
+        color: #ffffff;
+        top: 50px;
+        right: -20px;
+    }
+
+    img {
+        position: relative;
+        width: 311px;
+        height: 152px;
+        left: 20px;
+
+    }
+
+    .background {
+        display: flex;
+        position: relative;
+        width: 311px;
+        height: 72px;
+        background: rgba(252, 183, 43, 0.15);
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: -1.07143px;
+        left: 20px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    h3 {
+        position: relative;
+        width: 311px;
+        height: 64px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -1.42857px;
+        color: #495567;
+        left: 10px;
+    }
+
+    .instruct {
+        position: relative;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #939CAA;
+        width: 311px;
+        height: 125px;
+        left: 15px;
+    }
+
+    button {
+        position: relative;
+        background: #FCB72B;
+        color: #ffffff;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        left: 120px;
+        text-align: center;
+    }
 }
 
-h2 {
-    position: relative;
-    width: 311px;
-    height: 40px;
-    font-family: 'Space Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: -1.78571px;
-    color: #ffffff;
-    top: 50px;
-    right: -20px;
-}
+@media(min-width: 1440px){
+    .locations{
+        width: 1440px;
+        height: 200px;
+    }
 
-img{
-    position: relative;
-    width: 311px;
-    height: 152px;
-    left: 20px;
+    img{
+        width: 1110px;
+        height: 543px;
+        left: 120px;
+    }
 
-}
+    .background{
+        width: 189px;
+        height: 88px;
+    }
 
-.background{
-display: flex;
-position: relative;
-width: 311px;
-height: 72px;
-background: rgba(252, 183, 43, 0.15);
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-text-align: center;
-letter-spacing: -1.07143px;
-left: 20px;
-justify-content: center;
-align-items: center;
+    #new-york{
+        position: relative;
+        top: -400px;
+        left: 300px;
+    }
 
-}
+    #london{
+        position: relative;
+        top: -690px;
+        left: 500px;
+    }
 
-h3{
-position: relative;
-width: 311px;
-height: 64px;
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 32px;
-text-align: center;
-letter-spacing: -1.42857px;
-color: #495567;
-left: 10px;
-}
+    #jakarta{
+        position: relative;
+        top: -575px;
+        left: 800px;
+    }
 
-.instruct{
-position: relative;
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 25px;
-text-align: center;
-color: #939CAA;
-width: 311px;
-height: 125px;
-left: 15px;
-}
+    #Yokahama{
+        position: relative;
+        top: -850px;
+        left: 880px;
+    }
 
-button{
-    position: relative;
-    background: #FCB72B;
-    color: #ffffff;
-    font-family: 'Space Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 25px;
-    left: 120px;
-    text-align: center;
+    h3{
+       position: relative; 
+       top: -400px;
+       left: 160px;
+    }
+
+    .instruct{
+        position: relative;
+        top: -500px;
+        left: 500px;
+        width: 445px;
+        height: 100px;
+    }
+
+    button{
+        position: relative;
+        top: -600px;
+        left: 1000px;
+    }
+
+    .container{
+        display: flex;
+        width: 1440px;
+        height: 96px;
+        background-color:#333A44;
+    }
+
+    .footer1{
+        width: 1440px;
+        height: 300px;
+        background-color: #495567;
+    }
+
+        .facebook {
+            position: relative;
+            left: 800px;
+            top: 30px;
+        }
+    
+        .twitter {
+            position: relative;
+            left: 830px;
+            top: 32px;
+    
+        }
+    
+        .instagram {
+            position: relative;
+            left: 850px;
+            top: 30px;
+    
+        }
+
+                 #about {
+                     position: relative;
+                     left: 160px;
+                     top: 20px;
+                 }
+        
+                 #location {
+                     position: relative;
+                     top: 20px;
+                     left: 170px;
+                 }
+        
+                 #careers {
+                     position: relative;
+                     top: 20px;
+                     left: 180px;
+                 }
 }

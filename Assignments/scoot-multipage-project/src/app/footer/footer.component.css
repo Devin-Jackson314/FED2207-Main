@@ -27,6 +27,12 @@ h3 {
         left: 15px;
 
     }
+
+    .circles{
+        position: relative;
+        width: 375px;
+        left: 180px;
+    }
 }
 
 @media(min-width:1440px){
@@ -52,4 +58,9 @@ h3 {
         position: relative;
             left: 680px;
     }
+
+          .circles {
+              width: 1158px;
+              left: 220px;
+          }
 }

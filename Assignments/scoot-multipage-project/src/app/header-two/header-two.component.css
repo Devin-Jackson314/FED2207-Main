@@ -1,0 +1,32 @@
+@media(min-width: 1440px) {
+.about{
+    position: relative;
+    top: 140px;
+    left: 500px;
+    visibility: visible;
+   
+}
+
+.location{
+    position: relative;
+    top: 105px;
+    left: 600px;
+}
+
+.careers{
+    position: relative;
+    top: 73px;
+    left: 700px;
+   
+}
+
+
+}
+
+
+@media (min-width:375px){
+    .about{
+        visibility: hidden;
+    }
+    
+}

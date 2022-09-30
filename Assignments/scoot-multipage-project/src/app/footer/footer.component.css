@@ -37,4 +37,19 @@ h3 {
         top: -1000px;
 
     }
+
+    h3{
+        position: relative;
+        top: 70px;
+    }
+
+    .appstore{
+        position: relative;
+        left: 1030px;
+    }
+
+    .googleplay{
+        position: relative;
+            left: 680px;
+    }
 }

@@ -29,6 +29,7 @@ import { CareersSectionCComponent } from './careers-section-c/careers-section-c.
 import { LocationsComponent } from './locations/locations.component';
 import { LocationsSectionAComponent } from './locations-section-a/locations-section-a.component';
 import { LocationsSectionBComponent } from './locations-section-b/locations-section-b.component';
+import { HeaderTwoComponent } from './header-two/header-two.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { LocationsSectionBComponent } from './locations-section-b/locations-sect
     CareersSectionCComponent,
     LocationsComponent,
     LocationsSectionAComponent,
-    LocationsSectionBComponent
+    LocationsSectionBComponent,
+    HeaderTwoComponent
   ],
   imports: [
     BrowserModule,

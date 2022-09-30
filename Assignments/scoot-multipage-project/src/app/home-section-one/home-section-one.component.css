@@ -46,6 +46,13 @@
             left: 90px;
         }
 
+        svg{
+            position: relative;
+            overflow: hidden;
+            top: 170px;
+            left: -290px;
+        }
+
 } 
 
 @media (min-width: 1440px){
@@ -61,17 +68,24 @@
     }
 
     h2{
+        position: relative;
         width: 500px;
         height: 112px;
+        top: 140px;
+        left: 105px;
     }
 
     p{
+    position: relative;
        width: 405px;
        height: 100px; 
+       top: 90px;
+       left: 260px;
     }
 
     button{
         position: relative;
-        right: 100px;
+        left: 280px;
+        top: 100px;
     }
 }

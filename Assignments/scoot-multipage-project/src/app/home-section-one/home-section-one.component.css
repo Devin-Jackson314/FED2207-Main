@@ -48,9 +48,10 @@
 
         svg{
             position: relative;
-            overflow: hidden;
+            
             top: 170px;
             left: -290px;
+            overflow: hidden;
         }
 
 } 
@@ -85,7 +86,20 @@
 
     button{
         position: relative;
-        left: 280px;
-        top: 100px;
+        left: -200px;
+        top: 30px;
+    }
+
+        svg {
+            position: relative;
+            
+            top: 10px;
+            left: 670px;
+        }
+
+    .line{
+        position: relative;
+        left: -430px;
+        top: -130px;
     }
 }

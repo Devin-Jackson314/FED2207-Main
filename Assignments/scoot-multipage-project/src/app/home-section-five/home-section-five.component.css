@@ -44,6 +44,12 @@
             height: 311px;
             left: 20px;
         }
+
+
+        svg{
+            position: relative;
+            top: -160px;
+        }
 }
 
 
@@ -71,5 +77,9 @@
         position: relative;
         bottom: 800px;
         left: 130px;
+    }
+
+    svg{
+        display: none;
     }
     }

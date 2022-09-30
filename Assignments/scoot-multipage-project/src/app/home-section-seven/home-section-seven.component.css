@@ -12,7 +12,7 @@
             text-align: center;
             letter-spacing: -1.42857px;
             color: #495567;
-            top: 30px;
+            top: -230px;
             left: 30px;
         }
     
@@ -27,7 +27,7 @@
             line-height: 25px;
             text-align: center;
             color: #939CAA;
-            top: 20px;
+            top: -240px;
             left: 20px;
         }
     
@@ -36,7 +36,7 @@
             width: 180px;
             height: 53px;
             background: #FCB72B;
-            top: 20px;
+            top: -200px;
             left: 90px;
         }
     
@@ -45,32 +45,39 @@
             width: 311px;
             height: 311px;
             border-radius: 50%;
-            top: 40px;
+            top: -100px;
             left: 20px;
+        }
+
+        svg{
+            position: relative;
+            top: -420px;
+            left: 150px;
+            overflow: hidden;
         }
 }
 
 @media(min-width:1440px){
     img{
         position: relative;
-        top: -860px;
-        left: 600px;
+        top: -780px;
+        left: 770px;
     }
 
     h3{
         position: relative;
-        top: -1200px;
-        left: 80px;
+        top: -1100px;
+        left: 180px;
     }
 
     p{
         position: relative;
-        top: -1200px;
-        left: 80px;
+        top: -1100px;
+        left: 180px;
     }
 
     button{
-        top: -1200px;
-        left: 150px;
+        top: -1100px;
+        left: 250px;
     }
 }

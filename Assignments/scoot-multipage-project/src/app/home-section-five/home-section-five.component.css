@@ -13,6 +13,7 @@
             letter-spacing: -1.42857px;
             color: #495567;
             left: 20px;
+            top: -120px;
         }
     
         p {
@@ -26,6 +27,7 @@
             line-height: 25px;
             text-align: center;
             color: #939CAA;
+            top: -120px;
             left: 20px;
         }
     
@@ -35,6 +37,7 @@
             height: 53px;
             background: #FCB72B;
             left: 80px;
+            top: -120px;
         }
     
         img {
@@ -56,27 +59,27 @@
 @media(min-width:1440px){
     img {
         position: relative;
-        left: 785px;
+        left: 985px;
         bottom: 500px;
 
         }
 
     h3{
         position: relative;
-        bottom: 800px;
-        left: 95px;
+        top: -830px;
+        left: 195px;
     }
 
     p{
         position: relative;
-        bottom: 800px;
-        left: 95px;
+        top: -830px;
+        left: 195px;
     }
 
     button{
         position: relative;
-        bottom: 800px;
-        left: 130px;
+        top: -830px;
+        left: 250px;
     }
 
     svg{
